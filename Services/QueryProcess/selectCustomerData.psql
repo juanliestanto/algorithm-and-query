@@ -1,0 +1,3 @@
+SELECT *
+FROM pelanggan
+WHERE LOWER(NAMA) LIKE '%g%' AND ALAMAT = 'BANDUNG';
